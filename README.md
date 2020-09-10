@@ -2,16 +2,16 @@
 
 Basic Discord bot for educational purposes.
 
-# Command to execute bot
+## Commands to execute bot
 
 ### Transpile TS files
 
-```sh
-    npm run dev
+```console
+npm run dev
 ```
 
 ### Run bot
 
-```sh
-    npm start
+```console
+npm start
 ```
