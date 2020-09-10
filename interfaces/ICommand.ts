@@ -1,5 +1,7 @@
 import { Message } from "discord.js";
-type _<K> = (message: Message) => [K];
+
+// TODO: Check if this function can be used as second tipyfied parameter of ICommand
+// type _<K> = (message: Message) => [K];
 
 export default interface ICommand<F extends Function = any, H = any> {
 	name: string;
