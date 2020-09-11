@@ -15,3 +15,8 @@ npm run dev
 ```console
 npm start
 ```
+
+## Available bot commands
+* $ey
+* $pong
+* $tula [?to]
