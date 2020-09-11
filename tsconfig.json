@@ -2,9 +2,11 @@
     "compilerOptions": {
         "strict": true,
         "target": "ES5",
-        "rootDir": "./src",
         "outDir": "./build",
         "sourceMap": true,
-        "resolveJsonModule": true
-    }
+        "resolveJsonModule": true,
+        "removeComments": true,
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["./node_modules", "./tests/*.test.ts"]
 }

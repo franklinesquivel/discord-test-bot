@@ -9,6 +9,6 @@ const client = new Client();
 
 client.on("message", onMessage);
 
-client.on("men", () => console.log("ready!"));
+client.on("ready", () => console.log("ready!"));
 
 client.login(config.token ?? undefined).catch(err => console.log(err));
