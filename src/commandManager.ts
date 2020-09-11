@@ -9,7 +9,6 @@ const commandManager: commandManagerType = message => {
 	const res: ICommand | null =
 		commands.find(c => c.regex.test(content)) ?? null;
 
-	console.log(res);
 	if (res !== null) {
 		return res.execution(...res.paramHandler(message));
 	} else {
